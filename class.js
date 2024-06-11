@@ -9,7 +9,6 @@ class Todo {
 
         this.complete = new Boolean(complete);
         this._description = undefined;
-        this._newString = undefined;
     }
   
 static markAs(todo, status) {
